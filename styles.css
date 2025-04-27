@@ -1,0 +1,79 @@
+/*
+#423E37
+#E3B23C
+#EDEBD7 
+#A39594
+#6E675F
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #EDEBD7;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  color: #423E37;
+  line-height:160%;
+}
+
+body {
+    max-width:768px;
+    margin:0 auto;
+    padding:24px 40px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+a {
+    color:hsl(42, 100%, 35%);
+    text-decoration: none;
+    font-weight:bold;
+}
+
+img {
+    width:100%;
+    border-radius: 32px;
+}
+
+.home h1
+{
+    text-align:center;
+    font-size:56px;
+    margin-bottom:56px;
+}
+
+.home ul {
+    text-align: center;
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    font-size:24px;
+    font-weight:bold;
+}
+
+ol li {
+    margin-bottom:8px;
+}
+
+.home li {
+    margin: 12px 0;
+}
+
+.nav {
+    margin-bottom:24px;
+}
+
+.home svg {
+    display:block;
+    margin: 0 auto;
+    fill: #423E37
+}
